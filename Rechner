@@ -1,0 +1,7 @@
+class Rechner:
+    
+  __init__(self): 
+    self.addition() 
+
+  def addition(self): 
+    pass
