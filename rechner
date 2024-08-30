@@ -1,0 +1,21 @@
+class Rechner:
+
+    def __init__(self, num1=None, num2=None):
+        self.num1 = num1
+        self.num2 = num2
+
+    def addition(self):
+        print("Ergebnis:", self.num1 + self.num2)
+        
+
+    def subtraktion(self):
+        print("Ergebnis:", self.num1 - self.num2)
+
+
+#Test
+zahl1 = int(input("Eingabe Zahl_1: "))
+zahl2 = int(input("Eingabe Zahl_2: "))
+
+Rechner(num1=zahl1,num2=zahl2).addition()
+Rechner(num1=zahl1,num2=zahl2).subtraktion()
+
