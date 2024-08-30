@@ -5,7 +5,7 @@ class Rechner:
         self.num2 = num2
 
     def addition(self):
-        print("Ergebnis:", self.num1 - self.num2)
+        print("Ergebnis:", self.num1 + self.num2)
 
 
 #Test
